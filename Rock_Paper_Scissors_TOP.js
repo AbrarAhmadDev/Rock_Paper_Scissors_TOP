@@ -14,3 +14,5 @@ function getHumanChoice() {
     return choice.charAt(0).toUpperCase() + choice.slice(1).toLowerCase();
 }
 console.log(getHumanChoice());
+humanScore = 0;
+computerScore = 0;
